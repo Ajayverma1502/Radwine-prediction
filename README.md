@@ -19,3 +19,5 @@ reg.fit(df[['fixed acidity','alcohol','free sulfur dioxide']],df.quality)
 
 print(reg.predict([[8.9,9.3,22]]))
 
+# use a dataset like this format:
+fixed acidity','alcohol','free sulfur dioxide (7.4 ,9.4 ,11 ,5)
